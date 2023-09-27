@@ -11,7 +11,7 @@ dotenv.config({path: "./config.env"});
 
 const app = require("./app");
 
-const DB = process.env.LOCAL_DATABASE;
+const DB = process.env.DATABASE;
 
 console.log(DB);
 
